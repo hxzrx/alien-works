@@ -404,4 +404,6 @@
            #:translate
            #:rotate
            #:rotate-around
-           #:scale))
+           #:scale
+
+           #:with-transform))

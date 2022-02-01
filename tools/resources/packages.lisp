@@ -1,10 +1,11 @@
 (cl:defpackage :alien-works.tools.resources
   (:local-nicknames (:cref :cffi-c-ref)
                     (:a :alexandria)
+                    (:sv :static-vectors)
+                    (:cref :cffi-c-ref)
                     (:u :alien-works.utils)
                     (:m :alien-works.math)
                     (:host :alien-works.host)
-                    (:cref :cffi-c-ref)
                     (:%ai :%assimp))
   (:use :cl)
   (:export #:parse-scene
